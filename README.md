@@ -6,7 +6,7 @@ Este proyecto es una aplicación nativa de Android desarrollada con el lenguaje 
 <img src="https://github.com/user-attachments/assets/976dcb74-541a-4b8d-94c9-916d44e07cdc" width=260/> <img src="https://github.com/user-attachments/assets/f752dcbf-894d-4928-8e67-05ad81fa15ce" width=260/>
 
 
-## Tecnologias
+## Tecnologías
 - Activity
 - Intent
 - Snackbar
