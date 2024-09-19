@@ -30,7 +30,6 @@ class MainActivity : AppCompatActivity() {
                 )
                 .show()
 
-
             } else {
                 val altura = alturaStr.toFloat()
                 val peso = pesoStr.toFloat()
@@ -41,9 +40,6 @@ class MainActivity : AppCompatActivity() {
                 val intent = Intent(this, ResultActivity::class.java)
                 intent.putExtra(KEY_RESULT_IMC, resultado)
                 startActivity(intent)
-
-
-
             }
         }
     }

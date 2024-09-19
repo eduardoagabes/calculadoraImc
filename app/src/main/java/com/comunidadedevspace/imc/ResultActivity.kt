@@ -27,25 +27,23 @@ class ResultActivity : AppCompatActivity() {
         val classificacao: String
 
         if (result <= 18.5f) {
-            color = ContextCompat.getColor(this, R.color.red) // Cor para magreza
+            color = ContextCompat.getColor(this, R.color.red)
             classificacao = "MAGREZA"
         } else if (result <= 24.9f) {
-            color = ContextCompat.getColor(this, R.color.green) // Cor para normal
+            color = ContextCompat.getColor(this, R.color.green)
             classificacao = "NORMAL"
         } else if (result <= 29.9f) {
-            color = ContextCompat.getColor(this, R.color.yellow) // Cor para sobrepeso
+            color = ContextCompat.getColor(this, R.color.yellow)
             classificacao = "SOBREPESO"
         } else if (result <= 39.9f) {
-            color = ContextCompat.getColor(this, R.color.red) // Cor para obesidade
+            color = ContextCompat.getColor(this, R.color.red)
             classificacao = "OBESIDADE"
         } else {
-            color = ContextCompat.getColor(this, R.color.red) // Cor para obesidade grave
+            color = ContextCompat.getColor(this, R.color.red)
             classificacao = "OBESIDADE GRAVE"
         }
 
         tvClassificacao.text = classificacao
         tvClassificacao.setTextColor(color)
-
-
     }
 }
